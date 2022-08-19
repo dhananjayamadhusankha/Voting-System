@@ -1,0 +1,21 @@
+<div class="header" style="color: black">
+    <div class="logo" style="position: fixed; float: left;  background-color:black">
+        <a href="index.html"><img src="Image/Logo.png" style="margin-left: 1%;" width="8%" alt="Atlas Awards"/> </a>
+    </div>
+
+    <nav style="position: fixed; width: 100%; float: left; margin-left: 12%">
+        <ul class="menu">
+            <a href="index.php">HOME</a>
+            <a href="voteList.php">VOTE</a>
+            <a href="voteList.php">NOMINEES</a>
+            <a href="winners.php">WINNERS</a>
+            <a href="News.php">NEWS</a>
+            <a href="About.html">ABOUT</a>
+            <div class="line"></div>
+        </ul>
+        <ul class="reg">
+            <a class="btn log" style='margin-right:4px' href="Login.php">Log in</a>
+            <a class="btn sign" style='margin-right:4px' href="signupCtg.php">Sign up</a>
+        </ul>
+    </nav>
+</div>

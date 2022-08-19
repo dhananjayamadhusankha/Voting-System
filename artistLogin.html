@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Artist Login</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Login/artistLoginStyle.css">
+    <link rel="stylesheet" type="text/css" href="CSS/cancelBtnStyle.css">
+</head>
+<body>
+<form action="/action_page.php">
+    <div class="container">
+        <h1>Log in</h1>
+        <p class="ctgName">Artist</p>
+        <hr>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+        <button type="submit" class="loginbtn">Log in</button>
+
+        <div class="container login">
+            <p><a href="artistForgetPsw.html">Forgot your password? </a></p>
+        </div>
+
+        <hr>
+
+    <div class="container login">
+        <p>Don't have a free account yet?</p>
+        <button type="submit" class="loginbtn" onclick="document.location='artistLogin.html'">Create your account</button>
+    </div>
+
+        <hr>
+
+        <button class="canbtn" onclick="document.location='Home.html'">Cancel</button>
+</form>
+
+</body>
+</html>

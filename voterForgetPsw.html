@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Password Reset</title>
+<!--    <link rel="stylesheet" type="text/css" href="CSS/artistRegisterStyle.css">-->
+    <link rel="stylesheet" type="text/css" href="CSS/Login/forgotPwStyle.css">
+    <link rel="stylesheet" type="text/css" href="CSS/cancelBtnStyle.css">
+</head>
+<body>
+<form action="/action_page.php">
+    <div class="container">
+<!--        <h1>Password reset</h1>-->
+<!--        <p class="ctgName">To keep your account secure, we need</p>-->
+<!--        <p class="ctgName">to verify ypu are the account owner.</p>-->
+<!--        <br>-->
+
+<!--        <input class="select" type="radio" id="email" name="valid" value="male">-->
+<!--        <label for="email">Email me a reset link</label><br>-->
+
+<!--        <input class="select" type="radio" id="email" name="valid" value="male">-->
+<!--        <label for="email">Send verification code to my recovery phone</label><br>-->
+
+<!--        <input class="select" type="radio" id="email" name="valid" value="male">-->
+<!--        <label for="email">Reset password with your NIC number</label><br>-->
+
+<!--        <button type="submit" class="loginbtn">Confirm</button>-->
+
+
+        <h1>Password reset</h1>
+        <p class="ctgName">To keep your account secure, we need to verify you are the account owner.</p>
+<!--        <p class="ctgName"></p>-->
+        <br>
+        <br>
+        <br>
+        <label class="select">Email me a reset link
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>
+        </label>
+        <label class="select">Send verification code to my recovery phone
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+        </label>
+        <label class="select">Reset password with your NIC number
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+        </label>
+
+
+        <button type="submit" class="loginbtn">Confirm</button>
+
+
+
+        <hr>
+        <button class="canbtn" onclick="document.location='adminLogin.html'">Cancel</button>
+
+
+
+</div>
+
+
+</form>
+
+</body>
+</html>

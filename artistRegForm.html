@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Artist Register</title>
+
+    <link rel="stylesheet" type="text/css" href="CSS/Login/artistLoginStyle.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Register/voterRegFormStyle.css">
+    <link rel="stylesheet" type="text/css" href="CSS/cancelBtnStyle.css">
+
+    <script src="js/voterRegScript.js"></script>
+
+</head>
+<body>
+<form name="myForm" action="/voterRegForm.php" onsubmit="return validateForm()" method="post" required>
+    <div class="container">
+        <h1>Register Form</h1>
+        <p class="ctgName">Artist</p>
+        <hr>
+
+        <label for="fname"><b>First Name</b></label>
+        <input type="text" placeholder="First Name" name="fname" id="fname" required>
+
+
+        <label for="lname"><b>Last Name</b></label>
+        <input type="text" placeholder="Last Name" name="lname" id="lname" required>
+
+
+        <label for="nicNo"><b>NIC Number</b></label>
+        <input type="text" placeholder="NIC Number" name="nicNo" id="nicNo" required>
+
+        <h2 style="font-size: 18px">Gender</h2>
+
+        <br>
+
+        <h2 style="font-size: 18px">Gender</h2>
+
+        <label style="margin-top: 1%" class="select">Male
+            <input type="radio" name="gender" value="Male">
+            <span class="checkmark"></span>
+        </label>
+        <label class="select">Female
+            <input type="radio" name="gender" value="Femail">
+            <span class="checkmark"></span>
+        </label>
+        <label class="select">Other
+            <input type="radio" name="gender" value="Other">
+            <span class="checkmark"></span>
+        </label>
+
+        <br>
+
+        <label for="line1"><b>Address</b></label>
+        <input class="Add" type="text" placeholder="Address Line 1" name="line1" id="line1" required>
+
+        <label style="margin-top: 1%" for="line2"><b></b></label>
+        <input class="Add" type="text" placeholder="Address Line 2" name="line2" id="line2" required>
+
+        <label for="line3"><b></b></label>
+        <input class="Add" type="text" placeholder="Address Line 3" name="line3" id="line3" required>
+
+
+        <label for="phone"><b>Phone Number</b></label>
+        <input type="text" placeholder="Phone Number" name="phone" id="phone" required>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+        <hr>
+        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+        <button type="submit" class="registerbtn" name="reg_user">Register</button>
+
+        <hr>
+
+        <button type="button" class="canbtn" onclick="document.location='index.html">Cancel</button>
+    </div>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <meta name="disdription" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="CSS/homeStyle.css">
+    <link rel="stylesheet" type="text/css" href="CSS/serviceStyle.css">
+    <link rel="stylesheet" type="text/css" href="CSS/FooterStyle.css">
+    <link rel="stylesheet" type="text/css" href="CSS/SlideStyle.css">
+    <link rel="stylesheet" type="text/css" href="loginStyle.css">
+    <script src="js/myScript.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<img style="position: absolute" src="Image/BG.jpg" width="100%">
+
+
+<div class="header">
+    <div class="logo" style="position: fixed; float: left; margin-left: 1%" >
+        <a href="https://www.atlasawards.lk/"><img src="Image/Logo.png" width="8%" alt="Atlas Awards"/> </a>
+    </div>
+
+    <nav style="position: fixed; width: 100%; float: left; margin-left: 12%">
+        <ul class="menu">
+            <a href="#!">HOME</a>
+            <a href="#!">VOTE</a>
+            <a href="#!">NOMINEES</a>
+            <a href="#!">WINNERS</a>
+            <a href="#!">NEWS</a>
+            <a href="#!">ABOUT</a>
+            <div class="line"></div>
+        </ul>
+        <ul class="reg">
+            <a class="btn log" style='margin-right:4px' onclick="document.getElementById('id01').style.display='block'" style="width:auto;" href="#">Log in</a>
+            <a class="btn sign" style='margin-right:4px' href="#">Sign up</a>
+        </ul>
+    </nav>
+</div>
+
+
+
+
+<div id="id01" class="modal">
+
+    <form class="modal-content animate" action="/action_page.php" method="post">
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+<!--            <img src="img_avatar2.png" alt="Avatar" class="avatar">-->
+            <h1>Log in</h1>
+        </div>
+
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Login</button>
+            <label>
+                <input style="font-size: 14px" type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+
+<!--            <span class="psw"> <a href="#">Forgot your password?</a></span>-->
+
+                <li class="psw"><a href="https://courseweb.sliit.lk/">Forgot your password?</a></li>
+
+
+            <hr style="margin-top: 5%">
+
+            <p style="margin-top: 4%; font-size: 14px">Don't have a free account yet?</p>
+            <button type="submit">Create your account</button>
+
+        </div>
+
+<!--        <div class="container" style="background-color:#f1f1f1">-->
+<!--            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>-->
+<!--            <span class="psw"> <a href="#">Forgot your password?</a></span>-->
+<!--        </div>-->
+    </form>
+</div>
+
+
+
+
+
+<footer style="position: absolute; margin-top: 115%">
+
+    <div class="footer">
+        <div class="inner-footer">
+            <div class="footer-items">
+                <h1>Atlas Awards 2020</h1>
+                <p>Atlas Award proudly announce that this is the only singing awarding ceremony in the region held
+                    within the 1st quarter immediately after the end of year under review. No doubt that both
+                    artists and television viewers will welcome this move to evaluate the TV program while they
+                    are still live in good memories of them, despite the challenges in evaluating and organizing
+                    the event in such a short span of time.</p>
+            </div>
+
+            <div class="footer-items">
+                <h2>quick links</h2>
+                <div class="border"></div>
+                <ul style="margin-top: 5px">
+                    <a href=""><li>Winners</li></a>
+                    <a href=""><li>Nominees</li></a>
+                    <a href=""><li>Vote</li></a>
+                    <a href=""><li>Contact</li></a>
+                    <a href=""><li>News</li></a>
+                    <a href=""><li>Home</li></a>
+                </ul>
+            </div>
+
+            <div class="footer-items">
+                <h2>Follow Us</h2>
+                <div class="border"></div>
+                <div class="social-media">
+                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-items">
+                <h2>Contact Us</h2>
+                <div class="border"></div>
+                <ul style="margin-top: 5px">
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Nelum Pokuna Mahinda Rajapaksa Theatre</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>+94771234567</li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i>evoting@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                Copyright &copy; ATLAS AWARDS 2020. All rigths reserved.
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+
+<!--<div>-->
+<!--    <button data-react-toolbox="button" data-automation="LoginForm_SignUp_button" class="oc_v_453f4 b_h_9156a b_h_f4d86 b_h_1a7bb b_h_97f8c b_h_ce5e9 b_h_31b1c b_h_276d2 oc_v_5910e b_h_51685 b_h_695d2" type="button">Create your account</button>-->
+<!--</div>-->
+
+</body>
+</html>

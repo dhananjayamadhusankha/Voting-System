@@ -1,0 +1,61 @@
+.status table.status_table {
+    margin-top: 10%;
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    background-color: #2196F3;
+}
+
+/*.status table.status_table {*/
+/*    text-align: center;*/
+/*}*/
+
+.status table.status_table .artistPic {
+    width: 100%;
+    /*background-color: red;*/
+    text-align: center;
+}
+.status table.status_table .artistImg {
+    /*background-color: yellow;*/
+    text-align: center;
+    width: 40%;
+    float: left;
+    margin-left: 30%;
+    /*padding: 40%;*/
+}
+.status table.status_table .artistDetails {
+    /*background-color: #2196F3;*/
+    width: 60%;
+    color: white;
+
+}
+
+.status table.status_table ul li {
+    padding: 3%;
+    color: white;
+}
+
+.ok {
+    text-align: center;
+}
+
+.ok_div {
+    text-align: center;
+}
+
+.ok_div .ok_btn {
+    background-color: #2196F3;
+    color: white;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.status .status_table .artistDetails .artistVote {
+    width: 100%;
+    margin-top: 2%;
+    border: none;
+}
+
+.status .status_table .artistDetails .artistVote .bold{
+    font-weight: bold;
+}

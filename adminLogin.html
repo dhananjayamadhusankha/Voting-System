@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin Login</title>
+<!--    <link rel="stylesheet" type="text/css" href="CSS/artistRegisterStyle.css">-->
+    <link rel="stylesheet" type="text/css" href="CSS/Login/artistLoginStyle.css">
+    <link rel="stylesheet" type="text/css" href="CSS/cancelBtnStyle.css">
+</head>
+<body>
+<form action="/action_page.php">
+    <div class="container">
+        <h1>Log in</h1>
+        <p class="ctgName" style="color: #2196F3">Admin</p>
+        <hr>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+        <button type="submit" class="loginbtn">Log in</button>
+
+        <div class="container login">
+            <p><a href="adminForgetPsw.html">Forgot your password?</a></p>
+        </div>
+
+        <hr>
+
+        <button class="canbtn" onclick="document.location='Home.html'">Cancel</button>
+
+<!--        <hr>-->
+
+<!--    <div class="container login">-->
+<!--        <p>Don't have a free account yet?</p>-->
+<!--        <button type="submit" class="loginbtn">Create your account</button>-->
+<!--    </div>-->
+    </div>
+</form>
+
+</body>
+</html>

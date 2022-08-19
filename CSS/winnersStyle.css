@@ -1,0 +1,41 @@
+.winners{
+    width: 80%;
+    /*background-color: #616161;*/
+    float: left;
+    margin-left: 10%;
+}
+
+.winners h2{
+    font-size: 30px;
+}
+.winners .placeNo {
+    background-color: #2196F3;
+    margin-top: 1%;
+}
+
+.winners .placeNo h4 {
+    padding: 1%;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.winners .position .place {
+    background-color: #888888;
+    margin-top: 1%;
+}
+.winners .position .place h4 {
+    padding: 1%;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.winners .position .place_table table {
+    margin-top: 1%;
+    width: 90%;
+    margin-left: 5%;
+    border: none;
+}
+
+.winners .position .place_table table tr td {
+    padding: 8px;
+}

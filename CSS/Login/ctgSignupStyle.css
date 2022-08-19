@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+
+/* Add padding to containers */
+.container {
+    /*padding: 16px;*/
+    background-color: white;
+    width: 30%;
+    float: left;
+    margin-left: 35%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.firbtn {
+    background-color: #2196F3;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 28px;
+    font-size: 20px;
+    opacity: 1;
+}
+
+.firbtn:hover {
+      /*background-color: white;*/
+      /*color: #2196F3;*/
+      /*border: 2px solid #2196F3;*/
+      /*display: inline-block;*/
+    opacity: 0.9;
+    transition: all .2s ease-in-out;
+}
+
+.secbtn {
+    background-color: white;
+    color: #2196F3;
+    padding: 16px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+    /*opacity: 0.9;*/
+    border-radius: 28px;
+    font-size: 20px;
+    border: 2px solid #2196F3;
+    display: inline-block;
+}
+
+.secbtn:hover {
+    background-color: #2196F3;
+    color: white;
+    border-color: #2196F3;
+    transition: all .2s ease-in-out;
+}
+
+.btn.log {
+    border: 2px solid white;
+    /*background-color: white;*/
+    color: white;
+    padding: 14px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 28px;
+    font-weight: bold;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*.btn.log.firbtn.voter {*/
+/*    color: white;*/
+/*}*/
+.btn.log:hover {
+    background-color: #2196F3;
+    color: white;
+    border-color: #2196F3;
+    transition: all .2s ease-in-out;
+}
+
+.container hr.ctg {
+    margin-top: 2%;
+}
+
+h1 {
+    text-align: center;
+}

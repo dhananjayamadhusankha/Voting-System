@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Organozation Team Login</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Login/orgTeamLoginStyle.css">
+    <link rel="stylesheet" type="text/css" href="CSS/cancelBtnStyle.css">
+</head>
+<body>
+<form action="/action_page.php">
+    <div class="container">
+        <h1>Log in</h1>
+        <p class="ctgName">Organization Team</p>
+        <hr>
+
+        <label for="idNo"><b>ID Number</b></label>
+        <input type="text" placeholder="ID Number" name="idNo" id="idNo" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+        <button type="submit" class="loginbtn">Log in</button>
+
+        <div class="container login">
+            <p><a href="#">Forgot your password? </a></p>
+        </div>
+
+
+        <hr>
+
+        <button class="canbtn" onclick="document.location='Home.html'">Cancel</button>
+    </div>
+</form>
+
+</body>
+</html>

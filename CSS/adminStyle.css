@@ -1,0 +1,76 @@
+
+table {
+    width: 96%;
+    height: 10%;
+    /*background: #00121b;*/
+    float: left;
+    margin-left: 2%;
+    margin-top: 10%;
+    /*position: absolute;*/
+
+}
+
+table tr td {
+    width: 25%;
+}
+
+a {
+    color: #00121b;
+}
+
+.noOfVotes {
+    width: 100%;
+    background: white;
+    box-sizing: border-box;
+    padding: 0 15px;
+    float: left;
+    cursor: pointer;
+}
+
+.noOfVotes:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.noOfVotes i {
+    font-size: 300%;
+    padding: 20px 5px;
+    color: gray;
+    float: right;
+}
+
+.noOfVotes h5 {
+    padding: 20px 20px 0px 0px;
+    float: bottom;
+    color: gray;
+    text-align: center;
+    font-weight: normal;
+}
+
+.noOfVotes h1 {
+    text-align: center;
+    font-weight: normal;
+}
+
+.org_btn {
+    border: 2px solid #2196F3;
+    background-color: #2196F3;
+    color: white;
+    padding: 14px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 28px;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    /*font-size: 10px;*/
+}
+
+.org_btn:hover {
+    background-color: white;
+    color: #2196F3;
+    border: 2px solid #2196F3;
+    transition: all .2s ease-in-out;
+}

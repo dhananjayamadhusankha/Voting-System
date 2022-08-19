@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+
+}
+
+nav {
+    position: unset;
+    margin-top: 1%;
+}
+nav ul.menu {
+    float: left;
+    font-size: 13px;
+}
+
+nav ul.reg {
+    float: right;
+    margin-right: 13%;
+}
+/*nav {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%,-50%);*/
+/*}*/
+
+.menu a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    /*height: 30px;*/
+    padding: 1em 0;
+    display: inline-block;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+    /*background-color: red;*/
+}
+
+.line {
+    width: 120px;
+    height: 3px;
+    background-color: white;
+    transition: all .3s ease-in-out;
+}
+
+.menu a:nth-child(2):hover ~ .line {
+    transform: translate(123px);
+    transition: all .3s ease-in-out;
+    background-color: #2196F3;
+}
+
+.menu a:nth-child(2):hover {
+    color: #2196F3;
+}
+
+.menu a:nth-child(3):hover ~ .line {
+    transform: translate(249px);
+    transition: all .3s ease-in-out;
+    background-color: #2196F3;
+}
+
+.menu a:nth-child(3):hover {
+    color: #2196F3;
+}
+
+.menu a:nth-child(4):hover ~ .line {
+    transform: translate(370px);
+    transition: all .3s ease-in-out;
+    background-color: #2196F3;
+}
+
+.menu a:nth-child(4):hover {
+    color: #2196F3;
+}
+
+.menu a:nth-child(5):hover ~ .line {
+    transform: translate(496px);
+    transition: all .3s ease-in-out;
+    background-color: #2196F3;
+}
+
+.menu a:nth-child(5):hover {
+    color: #2196F3;
+}
+
+.menu a:nth-child(6):hover ~ .line {
+    transform: translate(620px);
+    transition: all .3s ease-in-out;
+    background-color: #2196F3;
+}
+
+.menu a:nth-child(6):hover {
+    color: #2196F3;
+}
+
+.btn.log {
+    border: 2px solid white;
+    /*background-color: white;*/
+    color: white;
+    padding: 14px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 28px;
+    font-weight: bold;
+    width: 108px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn.sign {
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 28px;
+    font-weight: bold;
+    width: 108px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    /*font-size: 10px;*/
+}
+
+.btn.log {
+    border-color: white;
+    color: white;
+}
+
+.btn.log:hover {
+    background-color: #2196F3;
+    color: white;
+    border-color: #2196F3;
+    transition: all .2s ease-in-out;
+}
+
+.sign {
+    /*border-color: white;*/
+    color: white;
+}
+
+.btn.sign:hover {
+    background-color: #2196F3;
+    color: white;
+    border-color: #2196F3;
+    transition: all .2s ease-in-out;
+}
+
+

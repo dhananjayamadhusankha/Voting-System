@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Voter Register</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Register/artistRegisterStyle.css">
+    <link rel="stylesheet" type="text/css" href="CSS/cancelBtnStyle.css">
+</head>
+<body>
+<form action="/action_page.php">
+    <div class="container">
+        <h1>Register</h1>
+        <p class="ctgName">Artist</p>
+        <hr>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+        <hr>
+        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+        <button type="submit" class="registerbtn">Register</button>
+        </div>
+
+        <div class="container signin">
+            <p>Already have an account? <a href="artistLogin.html">Log in</a>.</p>
+        </div>
+
+        <hr>
+
+        <div class="container">
+        <button class="canbtn" onclick="document.location='Home.html'">Cancel</button>
+        </div>
+    </div>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Voter Login</title>
+<!--    <link rel="stylesheet" type="text/css" href="CSS/artistRegisterStyle.css">-->
+    <link rel="stylesheet" type="text/css" href="CSS/Login/voterLoginStyle.css">
+    <link rel="stylesheet" type="text/css" href="CSS/cancelBtnStyle.css">
+</head>
+<body>
+<form action="/action_page.php">
+    <div class="container">
+        <h1>Log in</h1>
+        <br>
+        <p class="ctgName">Voter</p>
+        <hr>
+
+        <label for="username"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="username" id="username" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+        <button type="submit" class="loginbtn">Log in</button>
+
+        <div class="container login">
+            <p><a href="forgetPsw.html">Forgot your password? </a></p>
+        </div>
+
+        <hr>
+
+    <div class="container login">
+        <p>Don't have a free account yet?</p>
+        <button type="submit" class="regbtn">Create your account</button>
+    </div>
+
+
+            <hr>
+            <button class="canbtn" onclick="document.location='Home.html'">Cancel</button>
+    </div>
+</form>
+
+</body>
+</html>

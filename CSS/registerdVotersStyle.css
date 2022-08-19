@@ -1,0 +1,59 @@
+* {
+    font-family: Montserrat;
+}
+#artist {
+
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#artist td, #artist th {
+    /*border: 1px solid #ddd;*/
+    padding: 8px;
+}
+
+#cartist tr:nth-child(even){background-color: #f2f2f2;}
+
+#artist tr:hover {background-color: #ddd;}
+
+#artist th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+}
+
+.th_action{
+    text-align: center;
+}
+
+tr td .action {
+    float: left;
+    margin-left: 33.5%;
+
+}
+
+.delete {
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+    width: 90px;
+    height: 35px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.delete:hover {
+    color: #ffffff;
+    background-color: red;
+    border: 2px solid red;
+    width: 90px;
+    height: 35px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
